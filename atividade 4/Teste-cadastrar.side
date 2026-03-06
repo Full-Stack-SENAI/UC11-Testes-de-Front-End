@@ -1,0 +1,155 @@
+{
+  "id": "30fd96b8-6eff-471c-af55-f5e63ac01957",
+  "version": "2.0",
+  "name": "Projeto-Testes-Selenium",
+  "url": "http://192.168.1.12:8080",
+  "tests": [{
+    "id": "2abbe464-2099-4a33-bb04-f145589fac1f",
+    "name": "Teste Cadastro",
+    "commands": [{
+      "id": "3b9b59d5-6180-4908-bab3-7ba158e5130a",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e4701d-8306-4b7f-8def-c2486cf4e975",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "914x665",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65a105c2-db89-40e2-b920-4ff57fcc8052",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mat-warn > .mat-mdc-button-touch-target",
+      "targets": [
+        ["css=tr:nth-child(5) .mat-warn > .mat-mdc-button-touch-target", "css:finder"],
+        ["xpath=//tr[5]/td[4]/a/span[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f6f084-8e29-4d8c-9ece-d9f8afa5e114",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastro",
+      "targets": [
+        ["linkText=Cadastro", "linkText"],
+        ["css=span:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cadastro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cadastrar')]", "xpath:href"],
+        ["xpath=//span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cadastro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37bde0e0-14ba-46eb-a5ad-a1687b799edb",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "025713b3-615e-49c1-b7dd-a6d0f077e58d",
+      "comment": "Atividade 4 UC 11",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Magno"
+    }, {
+      "id": "d49598a9-5a2c-4b31-9c02-c20bd4b5e468",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d012b13-2d83-4d2c-9507-3d647b967a00",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Claudemagno V Gomes"
+    }, {
+      "id": "7c28e623-4301-4d31-b9bf-c266623b1d13",
+      "comment": "",
+      "command": "type",
+      "target": "id=endereco",
+      "targets": [
+        ["id=endereco", "id"],
+        ["name=endereco", "name"],
+        ["css=#endereco", "css:finder"],
+        ["xpath=//input[@id='endereco']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "SENAI-GAMA - Qd 08 A/E Setor Sul Gama-DF"
+    }, {
+      "id": "157c6341-d31a-4062-9479-bbaed33ba140",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b72f6395-3459-4f28-a332-a0918a9adf39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "debd4f4a-006b-47d8-8f0a-c341351b60b9",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Cadastro Efetuado com sucesso",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55d4ca07-d4a1-4e24-9eec-d7eaaffb0829",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2abbe464-2099-4a33-bb04-f145589fac1f"]
+  }],
+  "urls": ["http://192.168.1.12:8080/"],
+  "plugins": []
+}
