@@ -1,0 +1,21 @@
+{
+  "id": "c8969eb0-0574-4b50-83ff-42975fb346fd",
+  "version": "2.0",
+  "name": "Projeto-Selenium-Editar",
+  "url": "",
+  "tests": [{
+    "id": "cbb34f69-31a3-4512-ba19-0fc268ea63b8",
+    "name": "Teste Editar",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "bf24fcc7-6e9e-4093-acb8-aec6cfdb8f71",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cbb34f69-31a3-4512-ba19-0fc268ea63b8"]
+  }],
+  "urls": [],
+  "plugins": []
+}

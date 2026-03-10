@@ -12,13 +12,18 @@
     },
     {
       "id": 3,
-      "nome": "João",
+      "nome": "Professor Lucas Lessa",
       "endereco": "Rua 25"
     },
     {
-      "id": 4,
-      "nome": "fwefwefwe",
-      "endereco": "sSa"
+      "id": 6,
+      "nome": "Claudemagno V Gomes",
+      "endereco": "SENAI-GAMA-DF"
+    },
+    {
+      "id": 7,
+      "nome": "Magno Vargas Gomes",
+      "endereco": "Gama-DF"
     }
   ]
 }
